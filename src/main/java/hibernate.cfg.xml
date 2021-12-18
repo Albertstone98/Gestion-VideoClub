@@ -12,7 +12,13 @@
         <property name="hbm2ddl.auto">update</property>
         <property name="show_sql">true</property>
         
-        <mapping class="entidades.Pelicula"/>
+        <mapping class="entidades.Localidades"/>
+        <mapping class="entidades.Sexo"/>
+        <mapping class="entidades.GéneroFilm"/>
+        <mapping class="entidades.Clasificacion"/>
+        <mapping class="entidades.Estado"/>
+        
+        <mapping class="entidades.Peliculas"/>
         
     </session-factory>
 </hibernate-configuration>
