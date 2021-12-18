@@ -19,6 +19,9 @@
         <mapping class="entidades.Estado"/>
         
         <mapping class="entidades.Peliculas"/>
+        <mapping class="entidades.Socios"/>
+        <mapping class="entidades.Ejemplares"/>
+        <mapping class="entidades.Alquileres"/>
         
     </session-factory>
 </hibernate-configuration>
