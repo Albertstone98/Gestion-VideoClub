@@ -174,6 +174,38 @@ public class agregarPelicula extends JPanel {
 		panel.add(btnRegistrar);
 		
 	}
+	
+	public JComboBox getCbClasificacion() {
+		return cbClasificacion;
+	}
+
+	public void setCbClasificacion(JComboBox cbClasificacion) {
+		this.cbClasificacion = cbClasificacion;
+	}
+
+	public JComboBox getCbGenero() {
+		return cbGenero;
+	}
+
+	public void setCbGenero(JComboBox cbGenero) {
+		this.cbGenero = cbGenero;
+	}
+
+	public JButton getBtnBuscar() {
+		return btnBuscar;
+	}
+
+	public void setBtnBuscar(JButton btnBuscar) {
+		this.btnBuscar = btnBuscar;
+	}
+
+	public JButton getBtnRegistrar() {
+		return btnRegistrar;
+	}
+
+	public void setBtnRegistrar(JButton btnRegistrar) {
+		this.btnRegistrar = btnRegistrar;
+	}
 
 	public JTextField getTxtcodigo() {
 		return Txtcodigo;
